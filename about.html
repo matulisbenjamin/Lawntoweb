@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Lawn to Web</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            600: '#16a34a',
+                            700: '#15803d',
+                            800: '#166534',
+                            900: '#14532d',
+                        },
+                        secondary: {
+                            700: '#334155',
+                            900: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="text-white antialiased">
+
+<!-- Navbar -->
+<script src="components/navbar.js"></script>
+<custom-navbar></custom-navbar>
+
+<!-- HERO -->
+<section class="relative min-h-[70vh] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1521731249732-43207bf4ab63?q=80&w=1752&auto=format&fit=crop&ixlib=rb-4.1.0')] bg-cover bg-center"></div>
+
+    <div class="relative z-10 max-w-4xl mx-auto text-center px-6">
+        <div class="inline-block bg-black bg-opacity-50 p-8 rounded-2xl">
+            <h1 class="text-4xl md:text-5xl font-extrabold mb-6">
+                About Lawn to Web
+            </h1>
+            <p class="text-lg md:text-2xl text-white">
+                Built by a lawn care business owner, for lawn care businesses.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT CONTENT -->
+<section class="py-24 text-gray-900" style="background-color: #E9D8A6;">
+    <div class="max-w-5xl mx-auto px-6 space-y-16">
+
+        <!-- Founder Card -->
+        <div class="grid md:grid-cols-3 bg-white gap-10 items-center p-10 rounded-2xl shadow-xl " style="background-color: ;">
+            <img src="https://huggingface.co/spaces/Matb3nj1/lawn-to-web-grassroots-websites-for-growth/resolve/main/images/proffessional pic1.jpg"
+                 class="rounded-xl shadow-md"
+                 alt="Benjamin Matulis">
+<div class="md:col-span-2">
+                <h2 class="text-3xl font-bold mb-4">Hi, I’m Benjamin</h2>
+                </p>
+                <p class="text-lg mb-4 text-black">
+                    Hi, I’m Benjamin and I run a lawn care business myself, not just websites.
+                </p>
+                <p class="text-lg mb-4 text-black">
+                    Every day I manage crews, schedule jobs, handle clients, and maintain equipment. While growing my own company, I built my website and tested what actually brings in real customers.
+                </p>
+                <p class="text-lg mb-4 text-black">
+                    Because I’m in the industry, I know what homeowners look for and what makes them call. I use that insight to build websites that turn visitors into paying clients.
+                </p>
+                <p class="text-lg text-black">
+                    I help lawn care professionals get websites that bring consistent leads without wasting time or money.
+            </div>
+        </div>
+
+        <!-- Story -->
+        <div class="bg-white p-10 rounded-2xl shadow-xl">
+            <h2 class=" text-center text-3xl font-bold mb-6 text-[#000000]">My Story</h2>
+            <div class="space-y-4 text-gray-700 text-lg">
+                <p>
+                    I started my lawn care business with basic equipment and big ambitions.
+                    As the business grew, I realized how important having a strong online presence
+                    was for attracting new customers.
+                </p>
+                <p>
+                    Website builders and templates didn’t fit the needs of lawn care businesses,
+                    so I taught myself web design and built a site that actually converted visitors
+                    into booked jobs.
+                </p>
+                <p>
+                    Once others in the industry saw the results, they began asking for help, 
+                    and Lawn to Web was created to combine real-world lawn care experience with
+                    conversion-focused web design.
+                </p>
+            </div>
+        </div>
+
+        <!-- Why Different -->
+        <div class="bg-white p-10 rounded-2xl shadow-xl">
+            <h2 class="text-3xl font-bold mb-10 text-center text-[#17a34a]">Why I’m Different</h2>
+
+            <div class="grid md:grid-cols-2 gap-10">
+
+                <div class="flex gap-4">
+                    <div class="bg-green-100 p-3 rounded-full h-fit">
+                        <i data-feather="check-circle" class="text-primary-700"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Firsthand Industry Experience</h3>
+                        <p class="text-gray-700">
+                            I’m not guessing what works — I deal with lawn care customers every day.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <div class="bg-green-100 p-3 rounded-full h-fit">
+                        <i data-feather="zap" class="text-primary-700"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Simple, Clear Process</h3>
+                        <p class="text-gray-700">
+                            No tech confusion. Just a smooth process that gets your site live fast.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <div class="bg-green-100 p-3 rounded-full h-fit">
+                        <i data-feather="dollar-sign" class="text-primary-700"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Early-Client Pricing</h3>
+                        <p class="text-gray-700">
+                            Reduced rates while I build my portfolio and testimonials.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <div class="bg-green-100 p-3 rounded-full h-fit">
+                        <i data-feather="heart" class="text-primary-700"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold mb-2">Passion for the Industry</h3>
+                        <p class="text-gray-700">
+                            I genuinely enjoy helping lawn care professionals grow their businesses.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="py-24 text-center bg-[#17a34a]">
+    <div class="max-w-3xl mx-auto px-6">
+        <h2 class="text-4xl font-bold mb-6">
+            Ready to Grow Your Lawn Care Business?
+        </h2>
+        <p class="text-xl text-green-100 mb-10">
+            Let’s build a website that actually brings you customers.
+        </p>
+        <a href="contact.html"
+           class="inline-block !bg-green-800 hover:!bg-green-900 text-white font-semibold px-8 py-4 rounded-full shadow-xl transition">
+            Get Started
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
+<script src="components/footer.js"></script>
+<custom-footer></custom-footer>
+
+<script>
+    feather.replace();
+</script>
+
+</body>
+</html>
