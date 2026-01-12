@@ -28,7 +28,7 @@ if (mobileMenuButton && mobileMenu) {
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
     contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
+        form.submit();
         // Get form data
         const formData = {
             name: this.name.value,
